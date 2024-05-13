@@ -1,5 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+Simple app to test Embla Carousel within Next.Js.  Also a fun project for Mother's Day.
+
 ## Getting Started
 
 First, run the development server:
