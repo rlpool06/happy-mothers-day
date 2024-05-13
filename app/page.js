@@ -35,7 +35,7 @@ function EmblaCarousel() {
   return (
     <div className="embla mx-auto mt-12 h-80 max-w-lg border" ref={emblaRef}>
       <div className="embla__container h-full">
-        {images.map(image => <Image src={image.image} objectFit="contain" />)}
+        {images.map((image, index) => <Image key={index} alt="image" src={image.image} objectFit="contain" />)}
       </div>
     </div>
   )
@@ -45,7 +45,7 @@ function EmblaCarousel() {
 export default function Home() {
   return (
     <div className="bg-pink-100 h-screen flex justify-center text-center p-4 md:p-24 items-center flex-col">
-      <h1 className="text-2xl font-bold">Happy Mother's Day!</h1>
+      <h1 className="text-2xl font-bold">Happy Mother&apos;s Day!</h1>
       <EmblaCarousel />
     </div>
   );
